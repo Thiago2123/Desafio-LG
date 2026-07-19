@@ -128,7 +128,7 @@ docker compose run --rm app php vendor/bin/phpunit --colors=never
 Resultado esperado:
 
 ```text
-OK (13 tests, 61 assertions)
+OK (14 tests, 62 assertions)
 ```
 
 Os testes utilizam duas conexões SQLite independentes. A API da Groq é tambem
