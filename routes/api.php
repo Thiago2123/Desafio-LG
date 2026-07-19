@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/dashboard', 'DashboardApiController')->name('api.dashboard');
 
-// Limita cliques repetidos e protege a cota gratuita da Groq.
+// O prefixo separa este contador do polling de GET /api/dashboard.
 Route::post('/analise-ia', 'AnaliseProducaoController')
-    ->middleware('throttle:5,1')
+    ->middleware('throttle:5,1,analise-ia:')
     ->name('api.analise-ia');

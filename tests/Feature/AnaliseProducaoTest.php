@@ -25,6 +25,13 @@ class AnaliseProducaoTest extends TestCase
         $this->withoutMiddleware(ThrottleRequests::class);
     }
 
+    public function testaQueAnaliseUsaLimitadorSeparadoDoPolling()
+    {
+        $rota = app('router')->getRoutes()->getByName('api.analise-ia');
+
+        $this->assertContains('throttle:5,1,analise-ia:', $rota->gatherMiddleware());
+    }
+
     public function testaQueAIntegracaoDesabilitadaNaoImpedeODashboard()
     {
         config(['services.groq.key' => null]);
