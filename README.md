@@ -196,19 +196,19 @@ tests/                     testes
 
 Indicadores de produção, qualidade e eficiência das duas plantas atualizados em tempo real.
 
-![Dashboard consolidado](docs/images/Consolidado.png)
+![Dashboard consolidado](docs/Consolidado.png)
 
 ### Análise De I.A
 
 Interpretação gerencial gerada sob demanda pela Groq a partir dos indicadores calculados pelo Laravel.
 
-![Análise inteligente da produção](docs/images/AnaliseIA.png)
+![Análise inteligente da produção](docs/AnaliseIA.png)
 
 ### Detalhados
 
 Detalhamento das quantidades, taxas de defeitos, eficiência e linhas de produção.
 
-![Desempenho por produto](docs/images/Detalhado.png)
+![Desempenho por produto](docs/Detalhado.png)
 
 
 Documentação complementar:
