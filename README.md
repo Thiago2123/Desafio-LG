@@ -189,6 +189,28 @@ resources/views/           página Blade (HTML)
 tests/                     testes
 ```
 
+
+## Demonstração
+
+### Visão consolidada
+
+Indicadores de produção, qualidade e eficiência das duas plantas atualizados em tempo real.
+
+![Dashboard consolidado](docs/images/Consolidado.png)
+
+### Análise De I.A
+
+Interpretação gerencial gerada sob demanda pela Groq a partir dos indicadores calculados pelo Laravel.
+
+![Análise inteligente da produção](docs/images/AnaliseIA.png)
+
+### Detalhados
+
+Detalhamento das quantidades, taxas de defeitos, eficiência e linhas de produção.
+
+![Desempenho por produto](docs/images/Detalhado.png)
+
+
 Documentação complementar:
 
 - [`docs/01-arquitetura.md`](docs/01-arquitetura.md): decisões de arquitetura;
